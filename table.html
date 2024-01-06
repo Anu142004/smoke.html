@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+</html>
+<head>
+<title>table tutorial</title>
+<meta charset=""uft-8">
+
+</head>
+    <body>
+        <form name="employment" action="send.php" mathod="post">
+            <table width="400" border="1" cellspacing="2" cellpadding=""2">
+            <tr>
+                <td>employement application</td>
+                <td></td>  
+            </tr>
+            <tr>
+                <td>first name</td>
+                <td><input type="text" name="fname" maxlength="50" /></td>
+            </tr>
+            <tr>
+                <td>last name</td>
+                <td><input type="text" name="lname" maxlength="50" /></td>
+            </tr>
+            <tr>
+                <td>position</td>
+                <td>
+                    <select name="position">
+<option value="AC">account</option>
+<option value="RB">receptionist</option>
+<option value="AD">administrator</option>
+<opition value="SD">supervisition</opition>
+
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Experiment level</td>
+                <td>
+                    <select name="position">
+                    <option value="AC">account</option>
+<option value="EL">entry level</option>
+<option value="SE">some experiance</option>
+<opition value="VE">every experiance</opition>
+</select>
+
+                </td>
+            </tr>
+            
+            <tr>
+                <td>JOB TYPE</td>
+                <td><input type="checkbox" name="rt"/>Full-Time
+                    <input type="checkbox" name="rt"/>part-Time
+                    <input type="checkbox" name="rt"/>contract
+                </td>        
+             </tr>
+            <tr>
+                <td>employement status</td>
+                <td>
+                <input type="radio" name="estatus" value="employed"/>employed
+                <input type="radio" name="estatus" value="employed"/>unemployed
+                <input type="radio" name="estatus" value="student"/>student
+                
+
+                </td>
+            </tr>
+            <tr>
+                <td>addition comments</td>
+                <td>
+                    <textarea name=""comments cols="45"
+        rows="5"   ></textarea>      </td>
+            </tr>
+            <td></td>
+            <td>
+                <input type="submit"  value="submit" />         
+                <input type="result"  value="result" /> 
+            </td></tr>
+            </table> 
+       </form>
+    </body>
